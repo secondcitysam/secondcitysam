@@ -1,14 +1,14 @@
 # Hi, I’m Samyak Kedari 👋  
 ### Backend-Focused Java Developer | Spring Boot | REST APIs | MySQL
 
-![Java](...)
-![Spring Boot](...)
-![Spring MVC](...)
-![Spring Data JPA](...)
-![MySQL](...)
-![REST API](...)
-![Postman](...)
-![Git](...)
+![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring-MVC-green?logo=spring&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring-Data%20JPA-green?logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-lightgrey)
+![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange?logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-red?logo=git&logoColor=white)
 
 
 I build **clean, rule-driven backend systems** with a strong focus on **correctness, ownership enforcement, and predictable system behaviour**.
