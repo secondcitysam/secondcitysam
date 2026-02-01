@@ -1,92 +1,123 @@
-<h1 align="center">Hey, I'm Samyak 👋</h1>
+# Hi, I’m Samyak Kedari 👋
 
-<p align="center">
-  <b>Software Developer • Java • Spring Boot • Android • Full Stack Learner</b>
-</p>
+Backend-focused Java developer with a strong interest in building **clean, rule-driven backend systems** using Spring Boot.
 
----
+I enjoy working close to the core of systems — designing APIs, enforcing business rules, modelling data correctly, and making sure systems behave predictably under all conditions.
 
-## 🚀 About Me
-
-- 🎓 B.Tech IT (Specialization: SMAD)
-- 💻 Love building **backend systems**, **Android apps**, and **full-stack projects**
-- 🧩 Passionate about solving problems, learning fast, and shipping clean code  
-- 🌱 Currently learning **React + Spring Boot + DSA + System Design**
-- 🔥 Exploring AI-driven microservices (Python)  
-- ✨ Always excited to work on meaningful, real-world applications  
+I care more about **correctness, maintainability, and clarity** than flashy features.
 
 ---
 
-## 🔧 Tech Stack I Work With
+## 🧠 What I Focus On
 
-### **Backend**
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/REST_API-151515?style=for-the-badge"/>
-</p>
-
-### **Frontend**
-<p>
-  <img src="https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
-
-### **Mobile**
-<p>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java%20(Android)-3C873A?style=for-the-badge"/>
-</p>
-
-### **Tools & Platforms**
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-</p>
+- API-first backend design
+- Service-layer authorization (without relying on magic frameworks)
+- Explicit state management and lifecycle rules
+- Relational data modelling with MySQL
+- Defensive validation and centralized error handling
+- Writing backends that are easy to reason about and explain
 
 ---
 
-## 🛠️ Featured Projects
+## 🛠 Tech Stack
 
-### 🌐 **Exam Proctoring System**
-Spring Boot + MySQL + React + AI Microservices  
-> Face recognition, audio anomaly detection, object detection, live warnings, auto-submit.
+**Languages**
+- Java (Primary)
+- Python (Basic)
+- Kotlin (Basic)
+- C++ (Basic)
 
-### 📱 **Android Vendor Management App**  
-Java + JDBC + SQL  
-> Vendor CRUD, orders, details, normalization, transactions, DDNS support.
+**Backend & APIs**
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- REST APIs
+- DTO-based API design
+- Pagination, sorting, filtering
+- JPQL & custom queries
 
-### 💸 **iOS Expense Tracker (UIKit)**
-UserDefaults + MVC + Custom design  
-> Full expense flow with goals, charts, progress tracking.
+**Databases**
+- MySQL (complex queries, joins, grouping, pagination)
 
-### 🧠 **DSA Microproject — Fraud Detection System**
-Firebase + Java + Algorithms  
-> Detect duplicate transactions and suspicious behavior.
+**Tools**
+- Postman (API testing)
+- Git & GitHub
+- IntelliJ IDEA
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=secondcitysam&show_icons=true&theme=radical" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=secondcitysam&layout=compact&theme=radical" height="170"/>
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p>
-  <a href="https://www.linkedin.com/in/samyak-kedari"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:secondcitysam@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+**Architecture**
+- Layered architecture
+- Service-layer authorization
+- Soft delete (archive / restore)
+- Centralized exception handling
+- Defensive validation
 
 ---
 
-<h3 align="center">✨ Always building. Always learning. Always leveling up. ✨</h3>
+## 🚀 Featured Projects
+
+### 🔹 Enterprise Project & Task Management Backend
+**Java · Spring Boot · MySQL · JPA · Thymeleaf**
+
+An enterprise-style backend system designed to manage long-lived projects and tasks with **strict ownership enforcement and lifecycle control**.
+
+Key highlights:
+- Service-layer authorization ensuring only resource owners can create, modify, archive, or restore projects and tasks
+- Strong business rule enforcement preventing invalid operations on archived or immutable entities
+- Soft-delete (archive / restore) strategy to preserve historical data and audit safety
+- Optimized read-heavy APIs using DTO projections, pagination, sorting, and custom JPQL
+- Centralized exception handling for safe, predictable failure behaviour
+- Minimal Thymeleaf + Bootstrap UI to demonstrate backend-to-UI flow while keeping all logic server-side
+
+👉 Repository: https://github.com/<your-username>/<repo-name>
+
+---
+
+### 🔹 API-First Issue Tracking Backend
+**Java · Spring Boot · MySQL · JPA · Postman**
+
+A pure **API-first backend** focused on REST correctness, ownership enforcement, and predictable system behaviour.
+
+Key highlights:
+- No UI by design — Postman used as the client
+- Clean REST APIs with explicit HTTP semantics
+- Service-layer authorization without JWT or Spring Security
+- Explicit issue lifecycle management  
+  (OPEN → IN_PROGRESS → RESOLVED → ARCHIVED)
+- Soft delete using ARCHIVED as a terminal, immutable state
+- Pagination, sorting, filtering, and DTO-based JPQL projections
+- Comprehensive Postman test collection covering success, failure, and edge cases
+- Global exception handling for consistent error responses
+
+👉 Repository: https://github.com/<your-username>/<repo-name>
+
+---
+
+## 🎓 Education
+
+**B.Tech in Information Technology**  
+MIT ADT University, Pune  
+CGPA: 9.18 / 10  
+(Expected June 2027)
+
+**Diploma in Computer Engineering**  
+Government Polytechnic Pune  
+83.07% (June 2024)
+
+---
+
+## 🏆 Achievements
+
+- Smart India Hackathon 2024 — Internal Runner Up
+
+---
+
+## 📫 Connect With Me
+
+- Email: samyak.kedari4444@gmail.com  
+- LinkedIn: <add-link>  
+- GitHub: https://github.com/<your-username>
+
+---
+
+⭐ If you’re a recruiter or engineer reviewing my profile:
+I’m interested in backend roles where **correctness, ownership, and clean system design** matter more than UI polish.
